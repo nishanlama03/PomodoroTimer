@@ -3,10 +3,10 @@ html, body{
     margin:0;
     padding:0;
     height: 100%;
-    
-}
+}   
 body{
-    background-color: bisque;
+    background-image: url("https://img.freepik.com/free-photo/mars-sky-night-background-asset-game-2d-futuristic-generative-ai_191095-2103.jpg?t=st=1695447515~exp=1695451115~hmac=14983b5dc7fdbe66fa19cd5ac9234f8667726ed980d73637392a2cf5ba30dc00&w=1800");
+
     display:flex;
     justify-content: center;
     align-items: center;
@@ -16,13 +16,14 @@ body{
 .timer{
     height: 350px;
     width:500px;
-    background-color: rgb(236, 22, 22);
+    background-color: rgb(218, 75, 75);
     position: relative;
     border-radius: 10px;
     border: 5px solid darkred;
     box-shadow: 1px 1px 4px rgba(0,0,0,.7);
     
 }
+
 .time-display {
     font-size: 100px;
     font-weight: bold;
