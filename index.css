@@ -1,0 +1,62 @@
+
+html, body{
+    margin:0;
+    padding:0;
+    height: 100%;
+    
+}
+body{
+    background-color: bisque;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Courier New", Courier, monospace;
+    
+}
+.timer{
+    height: 350px;
+    width:500px;
+    background-color: rgb(236, 22, 22);
+    position: relative;
+    border-radius: 10px;
+    border: 5px solid darkred;
+    box-shadow: 1px 1px 4px rgba(0,0,0,.7);
+    
+}
+.time-display {
+    font-size: 100px;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+
+}
+
+.btns{
+    display:flex;
+    position:absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+
+.btns .start button{
+    padding: 10px;
+    width: 100px;
+    position:absolute;
+    bottom:-230px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.btn button{
+    padding: 10px;
+    margin: 10px;
+    width: 130px;
+}
+
+
